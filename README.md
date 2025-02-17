@@ -25,3 +25,8 @@ sb322jdk21 code structure is based on combination of `Hexagonal Architecture`, `
 * `Domain Driven Design` - Separate the main modules into package/folder of its own subdomain (e.g Banking, Loan, Fraud, etcs) but still resides as a module within the API's Executable
 
 ![Code Structure](doc/CodeArchitecture.png)
+
+## Running the project
+- Open the project in IntelliJ
+- Right click and run com.vercarus.sb322jdk21.backend.api.Sb322Jdk21BackendApplication.java
+- Visit http://localhost:8080/swagger-ui/index.html to try out the demo endpoint
