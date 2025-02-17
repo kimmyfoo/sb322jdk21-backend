@@ -4,7 +4,7 @@
 
 Agile Manifesto has been around for quite a while but it's mainly talking about the attitude and mindeset on how software team should think and behaves. But as a Software Engineer myself, with exposure of different codebases from different companies and industries, I noticed that different companies just pick some specific Code Architecture and Design Pattern and 1 pattern fit all towards all their projects.
 
-Most of the time, code architectures was designed to cater for technical limitation, such as scalability issue to be dealt by Event-Driven-Architecture while sacrificing readability due to over-decoupled microservices which no longer carry the User Story of the business domain resulting in high learning curve for new team members just to pick up the business domain and extensive time needed to change all relevant services for any new features.
+Most of the time, code architectures was designed to cater for technical limitation, such as scalability issue to be dealt by Event-Driven-Architecture while sacrificing maintainability due to over-decoupled microservices which no longer carry the User Story of the business domain resulting in high learning curve for new team members just to pick up the business domain and extensive time needed to change all relevant services for any new features.
 - Readability, Adaptability, Maintainability no longer in the picture
 
 With the release of Virtual Thread since JDK21 to help us on the scalability, we can revisit all the historical Design Patterns researched and created throughout the Software Engineering community so far. 
