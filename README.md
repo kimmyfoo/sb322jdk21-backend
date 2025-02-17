@@ -24,4 +24,4 @@ sb322jdk21 code structure is based on combination of `Hexagonal Architecture`, `
 * `Integration Design` (Limited, only to be used by ProjectApi's Modules) - To anchor all the Hexagonal Architecture's module with a centralized model within the API
 * `Domain Driven Design` - Separate the main modules into package/folder of its own subdomain (e.g Banking, Loan, Fraud, etcs) but still resides as a module within the API's Executable
 
-![Code Structure](docs/CodeArchitecture.png)
+![Code Structure](doc/CodeArchitecture.png)
